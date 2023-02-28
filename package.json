@@ -1,0 +1,26 @@
+{
+  "name": "zap-gpt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^4.2.1",
+    "deepai": "^1.0.21",
+    "dotenv": "^16.0.3",
+    "dotenv-safe": "^8.2.0",
+    "fs": "^0.0.1-security",
+    "google-tts-api": "^2.0.2",
+    "gtts": "^0.2.1",
+    "openai": "^3.1.0",
+    "say": "^0.16.0",
+    "text-to-speech-js": "^1.1.10",
+    "venom-bot": "^4.3.7"
+  }
+}
